@@ -91,6 +91,6 @@ while True:
     t2 = cv2.getTickCount()
     time1 = (t2-t1)/freq
     FRAME_RATE_CALC= 1//time1
-        
+
     if cv2.waitKey(1) == ord("q"):
         exit()

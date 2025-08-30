@@ -12,7 +12,7 @@ This repository contains a computer-vision program that detects the color of "he
 - Live webcam testing utility: `utility/camera_test.py`
 - Color calibration utility: `utility/color_selection.py`
 - Raspberry Pi thermometer testing utility: `utility/thermo_test.py`
-- Multiple algorithm iterations: `ver.1/`, `ver.2/`, `ver.3/`
+- Multiple algorithm iterations: `ver.1/`, `ver.2/`, `ver.3/`, `ver.4/`
 - Raspberry Pi tailored script: `Raspberry_Pi_Edition/recognition_pi.py`
 
 ## Repository Structure
@@ -20,6 +20,7 @@ This repository contains a computer-vision program that detects the color of "he
 - `ver.1/recognition_v1.py` — First working version, simplest pipeline.
 - `ver.2/recognition_v2.py` — Improved robustness and parameters.
 - `ver.3/recognition_v3.py` — Latest desktop iteration with better heuristics.
+- `ver.4/recognition_v4.py` — Simplified classification using pixel counts across color masks.
 - `Raspberry_Pi_Edition/recognition_pi.py` — Pi-specific integration.
 - `utility/camera_test.py` — Check camera index, resolution, FPS.
 - `utility/color_selection.py` — Interactive color range calibration.
@@ -57,6 +58,7 @@ Note: On Raspberry Pi, you may need additional system packages for camera and I2
    python ver.1/recognition_v1.py
    python ver.2/recognition_v2.py
    python ver.3/recognition_v3.py
+   python ver.4/recognition_v4.py
    ```
 
 ## Quick Start (Raspberry Pi)
